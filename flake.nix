@@ -24,8 +24,9 @@
 
             installPhase = ''
               mkdir -p $out/share/backgrounds/gnome
-              cp $src/thinknix-d.svg $out/share/backgrounds/gnome/thinknix-dark.svg
-              cp $src/nix-d.svg $out/share/backgrounds/gnome/thinknix-light.svg
+              cp $src/nix-d.svg $out/share/backgrounds/gnome
+              cp $src/thinknix-d.svg $out/share/backgrounds/gnome
+              cp $src/thinknix-l.svg $out/share/backgrounds/gnome
               mkdir -p $out/share/gnome-background-properties
               cp $src/thinknix.xml $out/share/gnome-background-properties/thinknix.xml
             '';
