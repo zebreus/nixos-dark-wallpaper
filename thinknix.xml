@@ -2,12 +2,21 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>NixOS wallpaper</name>
-    <filename>/run/current-system/sw/share/backgrounds/gnome/thinknix-light.svg</filename>
-    <filename-dark>/run/current-system/sw/share/backgrounds/gnome/thinknix-dark.svg</filename-dark>
+    <name>Thinkpad NixOS wallpaper</name>
+    <filename>/run/current-system/sw/share/backgrounds/gnome/thinknix-l.svg</filename>
+    <filename-dark>/run/current-system/sw/share/backgrounds/gnome/thinknix-d.svg</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
-    <pcolor>#151515</pcolor>
-    <scolor>#262626</scolor>
+    <pcolor>#c41000</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>NixOS wallpaper</name>
+    <filename>/run/current-system/sw/share/backgrounds/gnome/thinknix-l.svg</filename>
+    <filename-dark>/run/current-system/sw/share/backgrounds/gnome/nix-d.svg</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#c41000</pcolor>
+    <scolor>#000000</scolor>
   </wallpaper>
 </wallpapers>
